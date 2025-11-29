@@ -8,3 +8,9 @@ def login(username, password):
 def logout():
     return "User logged out"
 
+
+def validate_input(username, password):
+    if not username or not password:
+        return False
+    return True
+
